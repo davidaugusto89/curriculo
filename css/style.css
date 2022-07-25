@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+    border: 2px solid #CCC;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+}
+
+div#folha{
+    width: 900px;
+    height: 1273px;
+    margin: auto;
+    padding: 0;
+    background-color: white;
+
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+}
+
+#menu-lateral{
+    position: relative;
+    width: 250px;
+    height: 100%;
+    margin: 0 auto 0 0;
+    padding: 30x 0;
+    box-sizing: border-box;
+    background-color: #09253b;
+    color: white;
+}
+
+#menu-lateral div{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    
+}
+
+#menu-lateral figure{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto auto auto;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#menu-lateral figure img{
+    width: 80%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 1000px;
+}
+
+#menu-lateral figure figcaption{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+#menu-lateral figure figcaption h1{
+    width: 100%;
+    height: auto;
+    margin: 1px 0;
+    font-size: 1.3rem;
+}
+
+#menu-lateral figure figcaption h3{
+    width: 100%;
+    height: auto;
+    margin: 1px 0;
+    font-size: 0.8rem;
+}
+
+#menu-lateral .div-menu{
+    width: 100%;
+    height: auto;
+    margin: 40px 0;
+    text-align: left;
+}
+
+#menu-lateral h2{
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #03131f;
+    font-size: 1.4rem;
+}
+
+#menu-lateral .div-menu ul{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+}
+
+#menu-lateral .div-menu ul li{
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+#menu-lateral .div-menu ul li img{
+    width: 13px;
+    height: 13px;
+    margin: 0 10px 0 0;
+}
+
+#menu-lateral .div-menu ul li a{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+#menu-lateral .div-menu ul li a:hover{
+    color: aqua;
+}
+/*********************************************************/
+div#curriculo{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 20px 20px 20px 0;
+    box-sizing: border-box;
+    color: rgb(77, 77, 77);
+    text-align: initial;
+    background-color: #FFF;
+}
+
+div#curriculo div{
+    position: relative;
+    display: block;
+    height: auto;
+    margin: 5px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*
+#curriculo  .titulo{
+    height:100%;
+    transform: rotate(270deg);
+    text-color:#CCC;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #666;
+}
+*/
+
+#curriculo .titulo{
+    width:75px;
+}
+
+
+#curriculo .descricao{
+    width:440px;
+}
+
+#curriculo .icon{
+    width:100px;
+}
+
+#curriculo .linguagem{
+    width:200px;
+}
+
+#curriculo .skill{
+    width:200px;
+}
+
+div#curriculo div div{
+    display: block;
+}
+
+div#curriculo div div.titulo img{
+    width:auto;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    left: 0;
+}
+
+div#curriculo div div.descricao p{
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+div#curriculo div div.descricao p span{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+div#curriculo div div.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#curriculo div div.icon img{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+
+div#curriculo div div p img{
+    width: 13px;
+    height: 13px;
+}
+
+div.clear{
+    clear: both;
+}
